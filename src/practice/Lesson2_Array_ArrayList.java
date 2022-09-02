@@ -10,22 +10,22 @@ public class Lesson2_Array_ArrayList {
 
         String[] pazarSepeti = new String[5];
 
-        String[] pazarSepeti2 = {"elma","patates","kivi","karpuz","muz"};
+        String[] pazarSepeti2 = {"elma", "patates", "kivi", "karpuz", "muz"};
 
-        List<String > listPazarSepeti = new ArrayList<>();
+        List<String> listPazarSepeti = new ArrayList<>();
         listPazarSepeti.add("elma");
         listPazarSepeti.add("patates");
         listPazarSepeti.remove("patates");
-  List<String> listPazarSepeti2 = Arrays.asList(pazarSepeti2); // TODO
+        List<String> listPazarSepeti2 = Arrays.asList(pazarSepeti2); // TODO
 
         System.out.println(listPazarSepeti2.size());
-        listPazarSepeti.add(1,"çikolata");
+        listPazarSepeti.add(1, "çikolata");
 
-        listPazarSepeti.set(0,"pasta");
+        listPazarSepeti.set(0, "pasta");
 
         System.out.println(listPazarSepeti2.get(0));
 
-        if(!listPazarSepeti.contains("ketcap")) listPazarSepeti.add("ketcap");
+        if (!listPazarSepeti.contains("ketcap")) listPazarSepeti.add("ketcap");
 
     }
 }
